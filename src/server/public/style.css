@@ -1,0 +1,24 @@
+.disable-image-drag {
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+.disable-text-select {
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.flip-horizontally {
+  -moz-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  filter: FlipH;
+  transform: scale(-1, 1);
+}
