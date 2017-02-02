@@ -5,7 +5,8 @@
   "main": "src/server",
   "scripts": {
     "dev": "webpack-dev-server --content-base src/server/public",
-    "start": "node src/server"
+    "start": "node src/server",
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
